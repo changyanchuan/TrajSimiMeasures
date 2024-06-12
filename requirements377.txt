@@ -1,0 +1,21 @@
+Cython==0.29.33
+dgl_cu102==0.6.1
+faiss-cpu==1.7.4
+gensim==4.0.1
+h5py==2.10.0
+# kmedoids==0.4.3
+metrohash==0.3.3
+networkx==2.5.1
+numba==0.53.1
+numpy==1.21.5
+pandas==1.2.3
+Pillow==9.4.0
+psutil==5.8.0
+pynvml==8.0.4
+scikit_learn==1.0.2
+shared-memory38==0.1.2
+scipy==1.4.1
+torch==1.8.1
+torch_geometric==1.7.0
+torchvision==0.9.1
+traj_dist==1.15
