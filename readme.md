@@ -2,14 +2,17 @@
 
 Trajectory similarity computation benchmark from an efficiency perspective, including 10 heuristic measures and 6 learned measures. All measures can be run on CPU and GPU.
 
-Code implementation of the [paper](https://arxiv.org/abs/2311.00960) at VLDB 2024:
+Code implementation of the VLDB 2024 paper: **Trajectory Similarity Measurement: An Efficiency Perspective**. [[paper]](https://www.vldb.org/pvldb/vol17/p2293-qi.pdf) [[full report]](https://github.com/changyanchuan/TrajSimiMeasures/blob/master/paper_technical_report.pdf)
 
 ```
-@article{chang2023trajectory,
-  title={Trajectory Similarity Measurement: An Efficiency Perspective},
-  author={Chang, Yanchuan and Tanin, Egemen and Cong, Gao and Jensen, Christian S and Qi, Jianzhong},
-  journal={arXiv preprint arXiv:2311.00960},
-  year={2023}
+@article{trajsimi_survey,
+  title={{Trajectory Similarity Measurement: An Efficiency Perspective}},
+  author={Chang, Yanchuan and Tanin, Egemen and Cong, Gao and Jensen, Christian S. and Qi, Jianzhong},
+  journal={PVLDB},
+  volume={17},
+  number={9},
+  pages={2293--2306},
+  year={2024}
 }
 ```
 
@@ -59,11 +62,9 @@ See `./query/cpp./readme.md`
 \- Cluster trajectories:
 ```bash
 python test_clustering_time.py --dataset geolife --clustering_exp numtrajs --gpu
-
 ```
 ```bash
 python test_clustering_time.py --dataset geolife --clustering_exp numtrajs 
-
 ```
 
 
